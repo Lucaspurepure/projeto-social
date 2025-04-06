@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 98vh;
+    background-attachment: fixed;
+}
+
+#tela {
+    display: inline-flex;
+    margin: auto;
+    width: 200px;
+    
+    
+}
+
+#link, #iphone {
+    display: inline-block;
+    position: absolute;
+}
+
+ 
+.ico {
+    width: 40px;
+    border-radius: 30px;
+    display: block;
+    margin-top: 30px;
+    justify-content: right;
+    align-items: right;
+}
